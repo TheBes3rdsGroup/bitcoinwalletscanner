@@ -70,7 +70,7 @@ if __name__ == '__main__':
 		addr = input("type address:  ")
 	elif len(argv) == 2 and isinstance(argv[1], str):
 		addr = str(argv[1])
-	wallet(addr)
+	def wallet(addr)
 	
 
 	
