@@ -3,7 +3,7 @@ import urllib.request, urllib.error, urllib.parse
 import time
 import sys
 
-def Wallet (addr):
+def rscan(addr):
 	"""Check address for duplicated R Values."""
 
 	# TODO: add BCI API check address
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 		addr = input("type address:  ")
 	elif len(argv) == 2 and isinstance(argv[1], str):
 		addr = str(argv[1])
-	def wallet(addr)
+	 rscan(addr)
 	
 
 	
